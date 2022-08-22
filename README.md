@@ -89,3 +89,23 @@
     https://bbs.csdn.net/topics/605988722
     https://blog.csdn.net/changyixue/article/details/124859635
 ```
+brownie init
+![image](https://user-images.githubusercontent.com/77438845/185853786-6cb97310-6a55-4b03-85db-b1174802093d.png)
+
+brownie compile
+![image](https://user-images.githubusercontent.com/77438845/185854133-1d2ed662-bd8e-4f4d-9f27-688893ca63c1.png)
+
+brownie run scripts/deploy.py --network rinkeby
+![image](https://user-images.githubusercontent.com/77438845/185854385-6b3eb179-ed78-41da-8192-bff69a7f451b.png)
+
+brownie console --network rinkeby
+![image](https://user-images.githubusercontent.com/77438845/185854712-c36e9b61-8c30-4972-8a35-c0c9b87990ea.png)
+
+brownie run scripts/1_deploy_token --network rinkeby
+![image](https://user-images.githubusercontent.com/77438845/185855271-a1f1249a-5b39-47ce-a894-76ac363a4c67.png)
+
+brownie run scripts/1_deploy_token --network development
+![image](https://user-images.githubusercontent.com/77438845/185855468-439d3559-8a9b-45ac-9f7d-f5acbba83c76.png)
+
+brownie test tests/1_func_test.py
+![image](https://user-images.githubusercontent.com/77438845/185854956-bd2e2276-8de9-4dd2-bbc4-0a941a84ed11.png)
