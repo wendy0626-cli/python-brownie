@@ -1,3 +1,4 @@
+```
 ├───build                # 编译、部署等结果存放目录
 │   ├───contracts
 │   ├───deployments
@@ -31,4 +32,4 @@ Ganache现在有两个版本，
 https://github.com/trufflesuite/ganache/releases
 另一个这边使用的是命令行版本，github地址：
 https://github.com/trufflesuite/ganache-cli
-
+```
