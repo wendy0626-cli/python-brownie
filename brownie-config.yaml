@@ -16,7 +16,7 @@ allow_revert: True
 dotenv: .env
 # set a custom mnemonic for the development network
 networks:
-  default: test
+  default: dev
   development:
     #    fee: 100000000000000000
     #    fund_amount: 5000000000000000000
@@ -34,19 +34,17 @@ networks:
       port: 8545
       gas_limit: 6721975
       accounts: 10
-  test:
+  dev:
     host: http://127.0.0.1
     gas_price: 0
     persist: false
     reverting_tx_gas_limit: 6721975
-    network_id: 5777
-    port: 7545
-    gas_limit: 6721975
-    accounts: 10
-    #    test_rpc:
-    #      port: 7545
-    #      gas_limit: 6721975
-    #      accounts: 10
+    #     network_id: 5777
+    test_rpc:
+      cmd: ganache-cli
+      port: 8545
+      gas_limit: 6721975
+      accounts: 10
   fuji:
     fee: 100000000000000000
     jobId: 5ca4fa9b2d64462290abfbda84e38cf4
