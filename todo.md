@@ -32,4 +32,19 @@ Ganache现在有两个版本，
 https://github.com/trufflesuite/ganache/releases
 另一个这边使用的是命令行版本，github地址：
 https://github.com/trufflesuite/ganache-cli
+
+3.关于web3.py原生方法编译部署和测试
+使用到了ganache客户端！！！
+
+执行顺序：base.py---ini.py---deploy0822.py---test0822.py(脚本暂时会报错)
+
+其中：.env环境变量如下
+export RINKEBY_RPC_URL='http://127.0.0.1:7545'
+export ACCOUNT_ADDRESS='0x6Aad0eCb2eDA8a6282d86F1D5FA0f502f4807Cf9'
+export PRIVATE_KEY='74a58a8d4e169d81d14942e141d3689eb6e0b449ff7161b3016aea908f246250'
+export CHAIN_ID=1337
+
+![image](https://user-images.githubusercontent.com/77438845/186117567-e2b171bc-42ba-43e6-a386-8a479370b39d.png)
+略
+
 ```
