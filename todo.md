@@ -36,7 +36,7 @@ https://github.com/trufflesuite/ganache-cli
 3.关于web3.py原生方法编译部署和测试
 使用到了ganache客户端！！！
 
-执行顺序：base.py---ini.py---deploy0822.py---test0822.py(脚本暂时会报错)
+执行顺序：base.py---ini.py---deploy0822.py---test0822.py(脚本暂时无法传递data参数！)
 
 其中：.env环境变量如下
 export RINKEBY_RPC_URL='http://127.0.0.1:7545'
