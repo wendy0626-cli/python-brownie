@@ -59,5 +59,5 @@ print('add new Person to contract...')
 # 等待交易完成
 tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 # 获得people数组中存储的值
-result = storage.functions.people(0).call()
-print(f'get person info: {result}')
+# result = storage.functions.people(0).call()
+# print(f'get person info: {result}')
