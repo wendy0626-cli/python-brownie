@@ -32,6 +32,8 @@ storage = w3.eth.contract(address=contract_address, abi=abi)
 # # bytes.fromhex('61')等于 b'a'
 # print('aaa:', a_bytes)
 # # 打印为 b'a'
+# keccak_hash.update(a_bytes)
+# print(keccak_hash.hexdigest()
 
 # data = keccak256("addPerson(string,uint256)")[:4]
 # data += bytes32("二两")
