@@ -88,6 +88,11 @@
     https://blog.csdn.net/sanqima/article/details/121229613
     https://bbs.csdn.net/topics/605988722
     https://blog.csdn.net/changyixue/article/details/124859635
+    
+2.8 测试合约优化
+    By applying a module scope to the the token fixture, 
+    the contract is only deployed once and the same Contract instance is used for both test_approval and test_transfer.
+    
 ```
 brownie init
 ![image](https://user-images.githubusercontent.com/77438845/185853786-6cb97310-6a55-4b03-85db-b1174802093d.png)
@@ -109,3 +114,8 @@ brownie run scripts/1_deploy_token --network development
 
 brownie test tests/1_func_test.py
 ![image](https://user-images.githubusercontent.com/77438845/185854956-bd2e2276-8de9-4dd2-bbc4-0a941a84ed11.png)
+
+brownie test tests/1_func_test.py -s
+![image](https://user-images.githubusercontent.com/77438845/186886626-a2c8003c-bb05-4099-b8b0-2109a55fcf64.png)
+
+
