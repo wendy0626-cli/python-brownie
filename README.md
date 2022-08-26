@@ -93,7 +93,7 @@
     By applying a module scope to the the token fixture, 
     the contract is only deployed once and the same Contract instance is used for both test_approval and test_transfer.
     评估气体使用情况------brownie test --gas
-    评估覆盖范围------brownie test --coverag
+    评估覆盖范围------brownie test --coverage
     
 ```
 brownie init
