@@ -1,0 +1,16 @@
+{
+  "contracts": {
+    "FooBar": "955a75deed4d2b55feb4dffda1d6d960e1bd15d8",
+    "HelloERC20": "6f675e83b94d7d63e3a09ee8879cd8e6648ffe5b"
+  },
+  "tests": {
+    "tests/1_func_test.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "........",
+      "sha1": "fe13aafeb389312962795e346e64cce7a0a7f77a",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
