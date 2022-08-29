@@ -120,4 +120,8 @@ brownie test tests/1_func_test.py
 brownie test tests/1_func_test.py -s
 ![image](https://user-images.githubusercontent.com/77438845/186886626-a2c8003c-bb05-4099-b8b0-2109a55fcf64.png)
 
+ brownie test tests/1_func_test.py --gas
+![image](https://user-images.githubusercontent.com/77438845/187108105-f1f086aa-1e69-42cc-bfaa-03dbe216210d.png)
 
+brownie test tests/1_func_test.py --coverage
+![image](https://user-images.githubusercontent.com/77438845/187108282-9d81aa9d-ccd5-4208-94fd-a6771f65c092.png)
