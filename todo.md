@@ -11,6 +11,8 @@
 
 1.关于添加网络
 
+https://eth-brownie.readthedocs.io/en/v1.12.3/api.html
+
 brownie networks list
 brownie networks --help
 
