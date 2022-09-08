@@ -149,6 +149,7 @@ brownie test tests/1_func_test.py -s
 brownie test tests/1_func_test.py --coverage
 ![image](https://user-images.githubusercontent.com/77438845/187108282-9d81aa9d-ccd5-4208-94fd-a6771f65c092.png)
 
+
 brownie networks add Development dev cmd=ganache-cli host=http://127.0.0.1:8545
 ![image](https://user-images.githubusercontent.com/77438845/189086783-84f5db74-c6ad-4e9f-b922-0a9af119c5ab.png)
 
@@ -159,4 +160,14 @@ brownie run scripts/2_deploy_end.py --network dev
 ![image](https://user-images.githubusercontent.com/77438845/186086326-76d60e80-007a-4ccb-acb6-446dddf321c7.png)
 
 ![image](https://user-images.githubusercontent.com/77438845/186117567-e2b171bc-42ba-43e6-a386-8a479370b39d.png)
+
+brownie run scripts/2_deploy_end.py
+![image](https://user-images.githubusercontent.com/77438845/189088621-a6b77f52-5ed6-448a-a8ea-ab1116b563be.png)
+
+brownie console
+![image](https://user-images.githubusercontent.com/77438845/189088850-6b867524-7dfe-441d-bb4c-1b3355e3e310.png)
+
+brownie test tests/2_end_test.py
+<img width="1232" alt="截屏2022-08-23 10 12 30" src="https://user-images.githubusercontent.com/77438845/189089166-26ca705c-8293-430c-ad2a-851998e0b16a.png">
+
 
